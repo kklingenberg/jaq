@@ -13,6 +13,9 @@ categories = ["command-line-utilities", "compilers", "parser-implementations"]
 [features]
 default = ["mimalloc"]
 
+[build-dependencies]
+git2 = "0.17.2"
+
 [dependencies]
 jaq-syn    = { version = "1.0.0-alpha", path = "../jaq-syn" }
 jaq-parse  = { version = "1.0.0-alpha", path = "../jaq-parse" }
